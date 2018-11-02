@@ -8,15 +8,15 @@
 		
 		<!--provider>org.hibernate.jpa.HibernatePersistenceProvider</provider-->    	
         <!--provider>org.hibernate.ejb.HibernatePersistence</provider-->
-        <class>com.mortaneous.udemy.jpa1.Person</class>
-        <class>com.mortaneous.udemy.jpa1.SystemLog</class>
+        <class>com.mortaneous.jpa1.Person</class>
+        <class>com.mortaneous.jpa1.SystemLog</class>
         
         <properties>
        		<property name="hibernate.archive.autodetection" value="class" />
        		 
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/udemy?serverTimezone=UTC" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/jpa1?serverTimezone=UTC" />
 			<property name="hibernate.connection.user" value="root" />
 			<property name="hibernate.connection.password" value="root" />
             <property name="hibernate.hbm2ddl.auto" value="create"/>

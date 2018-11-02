@@ -1,4 +1,4 @@
-package com.mortaneous.udemy.jpa1;
+package com.mortaneous.jpa1;
 
 import javax.persistence.EntityManager;
 
